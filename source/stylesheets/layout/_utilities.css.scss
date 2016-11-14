@@ -5,9 +5,14 @@
  * ------------------------------------- */
 
 // Paddings
-.padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+.padded-vertical {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.margin-horizontal {
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 // Backgrounds

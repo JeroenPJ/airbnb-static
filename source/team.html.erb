@@ -1,0 +1,14 @@
+<div class="text-center padded-vertical">
+  <ul class="list-inline text-center padded-vertical">
+    <% ["adam", "jeroen"].each do |member| %>
+      <li class="margin-horizontal">
+        <%= image_tag "#{member}.jpg", class: "img-circle" %>
+        <h3><%= member.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+  <h3>
+    <i class="fa fa-envelope-o"></i>
+    <%= link_to "team@airbnb.com", "mailto:team@airbnb.com", target: "_blank" %>
+  </h3>
+</div>
